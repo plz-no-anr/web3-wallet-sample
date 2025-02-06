@@ -1,0 +1,13 @@
+[versions]
+junit = "4.13.2"
+jetbrainsKotlinJvm = "2.0.0"
+
+[libraries]
+# Web3
+web3j = { group = "org.web3j", name = "core", version = "5.0.0" }
+bitcoinj = { group = "org.bitcoinj", name = "bitcoinj-core", version = "0.16.1"}
+# UnitTest
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+
+[plugins]
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
